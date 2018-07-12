@@ -45,8 +45,8 @@ states = {"Massachusetts" => "MA",
 
 capitals = {"MA" => "Boston",
             "WI" => "Madison",
-			"NJ" => "Trenton",
-	 		"CO" => "Denver"}
+			      "NJ" => "Trenton",
+	 		      "CO" => "Denver"}
 	 		
 	 	puts "What state do you want to know the capital of?"
 	 	given = gets.chomp
