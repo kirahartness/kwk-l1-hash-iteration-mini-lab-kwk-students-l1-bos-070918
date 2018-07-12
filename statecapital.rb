@@ -39,4 +39,4 @@ capitals = {"MA" => "Boston",
 			      "NJ" => "Trenton",
 	 		      "CO" => "Denver"}.reverse_each
 given = "Boston"
-  puts statess[capitals[given]]
+  puts states[capitals[given]]
