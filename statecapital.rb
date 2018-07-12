@@ -38,3 +38,5 @@ capitals = {"MA" => "Boston",
             "WI" => "Madison",
 			      "NJ" => "Trenton",
 	 		      "CO" => "Denver"}.reverse_each
+given = "Boston"
+  puts statess[capitals[given]]
