@@ -14,3 +14,9 @@ puts  "Niall is 24 years old."
 puts "Zayn is 25 years old.", "Liam is 24 years old.", "Louis is 26 years old.", "Harry is 24 years old.", "Niall is 24 years old."
 one_direction_name = {Zayn, Liam, Louis, Harry, Niall}
 one_direction_age = {25, 24, 26, 24, 24}
+
+sum = 0 
+one_direction.each do |name, age|
+  sum += age
+end
+puts sum / one_direction.count
