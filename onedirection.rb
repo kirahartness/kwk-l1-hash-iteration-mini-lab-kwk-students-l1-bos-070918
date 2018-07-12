@@ -13,4 +13,4 @@ puts  "Niall is 24 years old."
 
 puts "Zayn is 25 years old.", "Liam is 24 years old.", "Louis is 26 years old.", "Harry is 24 years old.", "Niall is 24 years old."
 
-one_direction #{name, age}
+one_direction = {name, age}
