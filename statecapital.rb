@@ -37,4 +37,4 @@ states = {"Massachusetts" => "MA",
 capitals = {"MA" => "Boston",
             "WI" => "Madison",
 			      "NJ" => "Trenton",
-	 		      "CO" => "Denver"}.reverse
+	 		      "CO" => "Denver"}.reverse_each
