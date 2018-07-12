@@ -7,13 +7,11 @@ states = {"Massachusetts" => "MA",
              "WI" => "Madison",
              "NJ" => "Trenton",
              "CO" => "Denver"}
-             
-  states.each do |x|
-    iterate = 0
-    states[x]=capital[iterate]
-    iterate += 1 
-  end
-  puts states
+            
+  given = "Massachusetts"
+  puts capitals[states[given]]
+        
+  
 
 #     Level 1: Write some code which given a state name ("Massachusetts") outputs its capital ("Boston")
 #     Level 2: Handle the case when a state's information is not known by returning "Unknown"
