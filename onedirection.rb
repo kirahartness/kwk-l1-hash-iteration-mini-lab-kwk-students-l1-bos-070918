@@ -11,4 +11,4 @@ puts  "Louis is 26 years old."
 puts  "Harry is 24 years old."
 puts  "Niall is 24 years old."
 
-#{
+{"Zayn is 25"
