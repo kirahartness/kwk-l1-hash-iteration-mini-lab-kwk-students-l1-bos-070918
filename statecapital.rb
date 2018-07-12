@@ -25,8 +25,10 @@ states = {"Massachusetts" => "MA",
              "NJ" => "Trenton",
              "CO" => "Denver"}
             
-  given = "Massachusetts"
-  puts capitals[states[given]]
+  given = "North alaska"
+  if capitals[states[given]].nil?
+    puts "Unknown"
+  else 
 #     Level 3: Now let's go the other way. Given a capital name ("Denver"), return the state name for which it is the capital ("Colorado")
 
 states = {"Massachusetts" => "MA",
