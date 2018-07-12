@@ -52,4 +52,4 @@ given = gets.chomp
 puts capitals[states[given]]
 capital = capitals[states[given]]
 
-puts "The capital of #{given} is #{state}."
+puts "The state of #{given} is #{capitol}."
